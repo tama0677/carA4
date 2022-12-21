@@ -18,7 +18,7 @@ function 止まる () {
     pins.digitalWritePin(DigitalPin.P14, 0)
     pins.digitalWritePin(DigitalPin.P13, 0)
 }
-let 正面 = 84
+let 正面 = 162
 pins.servoWritePin(AnalogPin.P12, 正面)
 basic.showIcon(IconNames.Heart)
 basic.forever(function () {
